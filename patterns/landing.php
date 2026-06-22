@@ -23,7 +23,7 @@
 	<!-- wp:pattern {"slug":"patterns-portfolio/featured-section-5"} /-->
 	<!-- wp:pattern {"slug":"patterns-portfolio/featured-section-6"} /-->
 	<!-- wp:pattern {"slug":"patterns-portfolio/featured-section-7"} /-->
-	
+
 </main>
 <!-- /wp:group -->
 

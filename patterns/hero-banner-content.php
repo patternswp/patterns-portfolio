@@ -13,7 +13,7 @@
 ?>
 <!-- wp:columns {"metadata":{"name":"Hero content"},"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|80"}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center">
-    
+
 <!-- wp:column {"verticalAlignment":"center","width":"60%","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
 
@@ -21,12 +21,12 @@
 <div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-    
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 
 <!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading"><?php 
+<h1 class="wp-block-heading"><?php
 printf(
     esc_html__('👋 Hello, I\'m %s', 'patterns-portfolio'),
     '<mark style="background-color:rgba(0, 0, 0, 0);" class="has-inline-color has-primary-color">' . esc_html__('John Doe', 'patterns-portfolio') . '</mark>'
@@ -50,7 +50,7 @@ printf(
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","textTransform":"uppercase","letterSpacing":"1px"}},"textColor":"default","fontSize":"x-small"} -->
 <p class="has-default-color has-text-color has-x-small-font-size" style="font-style:normal;font-weight:400;letter-spacing:1px;text-transform:uppercase"><?php esc_html_e( 'Find with Me', 'patterns-portfolio' ); ?></p>
 <!-- /wp:paragraph -->
@@ -66,14 +66,14 @@ printf(
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","textTransform":"uppercase","letterSpacing":"1px"}},"textColor":"default","fontSize":"x-small"} -->
 <p class="has-default-color has-text-color has-x-small-font-size" style="font-style:normal;font-weight:400;letter-spacing:1px;text-transform:uppercase"><?php esc_html_e( 'Best skill On', 'patterns-portfolio' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:image {"width":"40px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|default"}}} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/icon-6.png" style="width:40px"/></figure>
 <!-- /wp:image -->
@@ -95,7 +95,7 @@ printf(
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
-    
+
 
 <!-- wp:group {"style":{"dimensions":{"minHeight":"550px"},"color":{"gradient":"linear-gradient(180deg,rgba(0,0,0,0) 15%,rgb(30,33,37) 0%)"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-background" style="background:linear-gradient(180deg,rgba(0,0,0,0) 15%,rgb(30,33,37) 0%);min-height:550px">

@@ -14,16 +14,16 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-secondary-background-color has-background">
-    
+
 <!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
-    
+
 <!-- wp:column {"verticalAlignment":"center","width":"80%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:80%">
-    
+
 <!-- wp:group {"metadata":{},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide">
-    
+
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.4","fontStyle":"normal","fontWeight":"300"}},"fontSize":"small"} -->
 <p class="has-small-font-size" style="font-style:normal;font-weight:300;line-height:1.4"><?php esc_html_e( 'Get in Touch', 'patterns-portfolio' ); ?></p>
 <!-- /wp:paragraph -->
@@ -67,7 +67,7 @@
     style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|default"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"textTransform":"uppercase","letterSpacing":"1px","lineHeight":"1.2","fontSize":"20px"},"layout":{"selfStretch":"fixed","flexSize":"100px"}}} /-->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|default"}}}},"textColor":"default","fontSize":"small"} -->
@@ -87,7 +87,7 @@
 
 <!-- wp:column {"width":"20%"} -->
 <div class="wp-block-column" style="flex-basis:20%">
-    
+
 <!-- wp:heading {"level":5,"textColor":"default"} -->
 <h5 class="wp-block-heading has-default-color has-text-color"><?php esc_html_e( 'Links', 'patterns-portfolio' ); ?></h5>
 <!-- /wp:heading -->
@@ -108,7 +108,7 @@
 
 <!-- wp:column {"width":"30%"} -->
 <div class="wp-block-column" style="flex-basis:30%">
-    
+
 <!-- wp:heading {"level":5,"textColor":"default"} -->
 <h5 class="wp-block-heading has-default-color has-text-color"><?php esc_html_e( 'Contact Info', 'patterns-portfolio' ); ?></h5>
 <!-- /wp:heading -->
@@ -151,13 +151,13 @@
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"color":{"background":"#1f1f1f4d"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-background" style="background-color:#1f1f1f4d;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
-    
+
 <!-- wp:pattern {"slug":"patterns-portfolio/copyright"} /-->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:pattern {"slug":"patterns-portfolio/scroll-to-top-button"} /-->
- 
+
 </div>
 <!-- /wp:group -->
 

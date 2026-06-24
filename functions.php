@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_PORTFOLIO_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_PORTFOLIO_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_PORTFOLIO_VERSION', '1.0.0' );
+define( 'PATTERNS_PORTFOLIO_VERSION', '2.0.0' );
 define( 'PATTERNS_PORTFOLIO_THEME_NAME', 'patterns-portfolio' );
 define( 'PATTERNS_PORTFOLIO_OPTION_NAME', 'patterns-portfolio' );
 

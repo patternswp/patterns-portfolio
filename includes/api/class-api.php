@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Portfolio_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Portfolio_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-portfolio/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Portfolio_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
